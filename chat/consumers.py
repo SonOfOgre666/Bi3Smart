@@ -3,8 +3,7 @@ from asgiref.sync import async_to_sync
 from.models import Stock
 import openai
 
-OPENAI_API_KEY = 'your_api_key'
-
+OPENAI_API_KEY = 'your_api_key' # Replace YOUR_API_KEY with your openai apikey 
 
 class EchoConsumer(SyncConsumer):
     def websocket_connect(self, event):
