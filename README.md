@@ -28,7 +28,7 @@ To run the Django Bi3Smart Project, follow these steps:
 python manage.py runserver
 ```
 
-## For Window
+## For Windows
 
 ```
 .venv\Scripts\activate
